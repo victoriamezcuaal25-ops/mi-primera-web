@@ -3,40 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuidaris S.L. - Cuidado de Mayores</title>
+    <title>Cuidaris S.L.</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 id="titulo-principal">Cuidaris S.L.</h1>
-        <p>Atención personalizada y apoyo en el hogar para nuestros mayores en Zaragoza</p>
+        <h1>Cuidaris S.L.</h1>
+        <p>Cuidamos de ti</p>
     </header>
 
+    <nav>
+        <a href="#inicio">Inicio</a> | 
+        <a href="#servicios">Servicios</a> | 
+        <a href="#nosotros">Sobre nosotros</a> | 
+        <a href="#contacto">Contacto</a>
+    </nav>
+
     <main>
-        <section class="tarjeta">
-            <h2>Sobre Nosotros</h2>
-            <p>Cuidaris S.L. es una empresa dedicada a proporcionar servicios de compañía y apoyo en el hogar. Nuestra misión es mejorar el bienestar de los seniors y colaborar con universidades para ofrecer prácticas a estudiantes del sector sociosanitario.</p>
+        <section id="inicio" class="tarjeta">
+            <h2>Inicio</h2>
+            <p>En Cuidaris, ofrecemos atención personalizada para mejorar la calidad de vida de nuestros mayores en su hogar.</p>
         </section>
 
-        <section class="tarjeta">
-            <h2>Nuestros Servicios y Tarifas</h2>
+        <section id="servicios" class="tarjeta">
+            <h2>Nuestros Servicios</h2>
             <ul>
-                <li><strong>Actividades Estimulantes:</strong> 60 €</li>
-                <li><strong>Apoyo Residencial:</strong> 70 €</li>
-                <li><strong>Acompañamiento Diario:</strong> 50 €</li>
+                <li><strong>Actividades Estimulantes:</strong> Estimulación cognitiva y compañía activa.</li>
+                <li><strong>Apoyo Residencial:</strong> Asistencia y acompañamiento especializado.</li>
+                <li><strong>Acompañamiento Diario:</strong> Ayuda en gestiones, paseos y rutinas diarias.</li>
             </ul>
         </section>
 
-        <section class="tarjeta">
-            <h2>Contacto y Ubicación</h2>
-            <p><strong>Dirección:</strong> Calle Mayor, 24, 50001 Zaragoza, España</p>
-            <p><strong>Email:</strong> info@cuidaris-sl.com | <strong>Teléfono:</strong> +34 976 00 00 00</p>
+        <section id="nosotros" class="tarjeta">
+            <h2>Sobre nosotros</h2>
+            <p>Cuidaris S.L. es una empresa innovadora dedicada al bienestar de las personas mayores, colaborando con universidades para ofrecer prácticas a estudiantes del sector sociosanitario.</p>
         </section>
 
-        <section class="tarjeta">
-            <h2>Interactividad</h2>
-            <button onclick="cambiarMensaje()">¡Haz clic para contactar!</button>
-            <p id="mensaje-interactivo">Esperando acción...</p>
+        <section id="contacto" class="tarjeta">
+            <h2>Contacto</h2>
+            <p><strong>Dirección:</strong> Calle Mayor, 24, 50001 Zaragoza, España</p>
+            <p><strong>Email:</strong> info@cuidaris-sl.com</p>
+            <button onclick="cambiarMensaje()">Contáctanos</button>
+            <p id="mensaje-interactivo"></p>
         </section>
     </main>
 
